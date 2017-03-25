@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_layout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.layout.Layout2Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+    <TextView
+        android:text="RED"
+        android:gravity="center"
+        android:background="@android:color/holo_red_light"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:id="@+id/red" />
+
+        <TextView
+            android:text="ORANGE"
+            android:gravity="center"
+            android:background="@android:color/holo_orange_light"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/orange" />
+
+        <TextView
+            android:text="YELLOW"
+            android:gravity="center"
+            android:background="#F8F8FF00"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/yellow" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:text="BLUE"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:background="#ff0000ff"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_margin="5dp"
+            android:id="@+id/blue" />
+
+        <TextView
+        android:text="GREEN"
+        android:gravity="center"
+        android:layout_width="110dp"
+        android:background="#ff00ff00"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@id/blue"
+        android:layout_margin="5dp"
+        android:id="@+id/green" />
+
+        <TextView
+            android:text="INDIGO"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:layout_width="115dp"
+            android:background="#4B0082"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/blue"
+            android:layout_margin="5dp"
+            android:id="@+id/indigo" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:text="VIOLET"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:background="#EE82EE"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:id="@+id/violet" />
+
+    </RelativeLayout>
+
+</LinearLayout>
